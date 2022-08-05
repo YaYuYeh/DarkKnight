@@ -65,6 +65,7 @@ class ViewController: UIViewController
         nameLabel.text = movieName[selectedNumber]
         trilogyNumLabel.text = trilogy[selectedNumber]
         linesLabel.text = movieLines[selectedNumber]
+        changePC.currentPage = selectedNumber
     }
     
     //上一頁
