@@ -13,6 +13,8 @@
 		840CCD63289C0A4200DEF813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840CCD61289C0A4200DEF813 /* Main.storyboard */; };
 		840CCD65289C0A4300DEF813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840CCD64289C0A4300DEF813 /* Assets.xcassets */; };
 		840CCD68289C0A4300DEF813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840CCD66289C0A4300DEF813 /* LaunchScreen.storyboard */; };
+		84EE1ADC289CEE3900F72E06 /* Batman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84EE1ADB289CEE3900F72E06 /* Batman.mp3 */; };
+		84EE1ADE289CF25900F72E06 /* Molossus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84EE1ADD289CF25900F72E06 /* Molossus.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		840CCD64289C0A4300DEF813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840CCD67289C0A4300DEF813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840CCD69289C0A4300DEF813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EE1ADB289CEE3900F72E06 /* Batman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Batman.mp3; sourceTree = "<group>"; };
+		84EE1ADD289CF25900F72E06 /* Molossus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Molossus.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				840CCD64289C0A4300DEF813 /* Assets.xcassets */,
 				840CCD66289C0A4300DEF813 /* LaunchScreen.storyboard */,
 				840CCD69289C0A4300DEF813 /* Info.plist */,
+				84EE1ADB289CEE3900F72E06 /* Batman.mp3 */,
+				84EE1ADD289CF25900F72E06 /* Molossus.mp3 */,
 			);
 			path = "Dark Knight";
 			sourceTree = "<group>";
@@ -126,8 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				840CCD68289C0A4300DEF813 /* LaunchScreen.storyboard in Resources */,
+				84EE1ADE289CF25900F72E06 /* Molossus.mp3 in Resources */,
 				840CCD65289C0A4300DEF813 /* Assets.xcassets in Resources */,
 				840CCD63289C0A4200DEF813 /* Main.storyboard in Resources */,
+				84EE1ADC289CEE3900F72E06 /* Batman.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
