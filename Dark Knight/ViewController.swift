@@ -55,7 +55,7 @@ class ViewController: UIViewController
     //將換頁效果放入函式
     func infoChange()
     {
-        //trilogy文字顏色及陰影變換
+        //trilogy文字及陰影的顏色變換
         trilogyLabel.textColor = trilogyColor[selectedNumber]
         trilogyLabel.shadowColor = trilogyColor[selectedNumber]
         trilogyNumLabel.textColor = trilogyColor[selectedNumber]
