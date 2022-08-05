@@ -76,7 +76,7 @@ but what I do, that defines me.
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="prePress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E1E-pG-JT5"/>
+                                    <action selector="pre:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fdn-II-aew"/>
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0L-xL-dYW">
@@ -88,7 +88,7 @@ but what I do, that defines me.
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="nextPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ypF-U6-x6d"/>
+                                    <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mqr-Jc-Jp0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -107,12 +107,12 @@ but what I do, that defines me.
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="left" id="iyR-do-UHp" userLabel="Next Swipe Gesture Recognizer">
                     <connections>
-                        <action selector="nextSwipe:" destination="BYZ-38-t0r" id="bgq-aT-jmD"/>
+                        <action selector="next:" destination="BYZ-38-t0r" id="YHP-2d-ooZ"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="right" id="1ca-1E-15u" userLabel="Pre Swipe Gesture Recognizer">
                     <connections>
-                        <action selector="preSwipe:" destination="BYZ-38-t0r" id="hAi-xJ-yoL"/>
+                        <action selector="pre:" destination="BYZ-38-t0r" id="nS0-aC-hUt"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
