@@ -67,12 +67,6 @@ class ViewController: UIViewController
         linesLabel.text = movieLines[selectedNumber]
     }
     
-    //下一頁
-    @IBAction func nextPress(_ sender: UIButton!)
-    {
-        selectedNumber = (selectedNumber + 1) % batman.count
-        infoChange()
-    }
     //上一頁
     @IBAction func prePress(_ sender: UIButton!)
     {
@@ -83,16 +77,23 @@ class ViewController: UIViewController
         }
         infoChange()
     }
-        //滑動手勢下一頁
-    @IBAction func nextSwipe(_ sender: UISwipeGestureRecognizer)
+    //下一頁
+    @IBAction func nextPress(_ sender: Any)
     {
-        nextPress(nil)
+        selectedNumber = (selectedNumber + 1) % batman.count
+        infoChange()
     }
     //滑動手勢上一頁
     @IBAction func preSwipe(_ sender: UISwipeGestureRecognizer)
     {
         prePress(nil)
     }
+    //滑動手勢下一頁
+    @IBAction func nextSwipe(_ sender: UISwipeGestureRecognizer)
+    {
+        nextPress(0)
+    }
+
     //小圓點換頁
     @IBAction func pcSelect(_ sender: UIPageControl)
     {

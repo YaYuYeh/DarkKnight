@@ -98,7 +98,7 @@ but what I do, that defines me.
                     <connections>
                         <outlet property="batmanImageView" destination="bgS-jm-KeQ" id="jgF-am-FBU"/>
                         <outlet property="changePC" destination="wTL-01-mmV" id="hO4-Zc-Uge"/>
-                        <outlet property="linsLabel" destination="9pN-4c-UJZ" id="K67-K3-kcC"/>
+                        <outlet property="linesLabel" destination="9pN-4c-UJZ" id="E0A-n6-VQC"/>
                         <outlet property="nameLabel" destination="GZb-gx-L7Y" id="yQk-bW-ASq"/>
                         <outlet property="trilogyLabel" destination="ZCV-Hg-vSK" id="eFS-0J-8pn"/>
                         <outlet property="trilogyNumLabel" destination="obo-oo-ozI" id="uIN-wd-mK3"/>
